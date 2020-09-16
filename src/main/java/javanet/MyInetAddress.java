@@ -3,6 +3,9 @@ package javanet;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
+/**
+ * Example take from the book Java Networking Programming 4th Edition
+ */
 public class MyInetAddress {
 	
 	public void loadInetAddressByName() {
