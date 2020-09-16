@@ -1,9 +1,8 @@
 package javanet;
 
 public class AccessNet {
-	
-	public void load() {
-		System.out.println("Loaing...");
-	}
 
+	public void load() {
+		System.out.println("Loading...");
+	}
 }
