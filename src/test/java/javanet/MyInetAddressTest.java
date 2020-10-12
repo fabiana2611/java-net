@@ -11,10 +11,6 @@ public class MyInetAddressTest {
 	@InjectMocks
 	private MyInetAddress service;
 	
-	@Test
-	public void loadInetAddressByName() {
-		service.loadInetAddress();
-	}
 	
 	@Test
 	public void loadInetAddressArray() {
