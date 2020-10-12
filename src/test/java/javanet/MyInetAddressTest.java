@@ -13,7 +13,7 @@ public class MyInetAddressTest {
 	
 	@Test
 	public void loadInetAddressByName() {
-		service.loadInetAddressByName();
+		service.loadInetAddress();
 	}
 	
 	@Test
@@ -21,9 +21,4 @@ public class MyInetAddressTest {
 		service.loadInetAddressArray();
 	}
 	
-	@Test
-	public void loadLocalHost() {
-		service.loadLocalHost();
-	}
-
 }
